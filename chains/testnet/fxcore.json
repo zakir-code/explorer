@@ -1,0 +1,29 @@
+{
+  "chain_name": "fxcore testnet",
+  "api": [
+    "https://testnet-fx-rest.functionx.io:1317"
+  ],
+  "rpc": [
+    "https://testnet-fx-json.functionx.io:26657"
+  ],
+  "sdk_version": "v0.46.12",
+  "coin_type": "60",
+  "min_tx_fee": "500000000000000000",
+  "assets": [
+    {
+      "base": "FX",
+      "symbol": "FX",
+      "exponent": "18",
+      "coingecko_id": "fx-coin",
+      "logo": "/logos/functionx.svg"
+    }
+  ],
+  "addr_prefix": "fx",
+  "logo": "/logos/functionx.svg",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ]
+}
